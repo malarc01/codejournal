@@ -1,4 +1,7 @@
-function mark_starting_point_and_move() {
+/* Maze solution in Javascript:
+   a simple program.            */
+
+   function mark_starting_point_and_move() {
     put("token");
     while (!front_is_clear()) {
         turn_left();
